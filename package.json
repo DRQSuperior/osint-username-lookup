@@ -1,0 +1,33 @@
+{
+  "name": "osint-username-lookup",
+  "version": "1.0.0",
+  "description": "A simple OSINT tool for checking username availability across various online platforms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "DRQSuperior",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "https": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=20.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DRQSuperior/osint-username-lookup.git"
+  },
+  "keywords": [
+    "osint",
+    "username",
+    "lookup",
+    "social-media",
+    "intelligence"
+  ]
+}
